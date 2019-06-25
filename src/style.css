@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width:100%;
+}
+
+#legend {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-weight: 300;
+  color: #fff;
+  background-color: #000;
+  padding: .4rem .8rem;
+  box-shadow: 0 2px 4px black;
+}
+
+#legend a {
+  color: #fff;
+}
